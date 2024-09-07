@@ -73,11 +73,6 @@ function pesquisarRemedio() {
         </div>
         `;
         }
-        if (!resultados) {
-            section.innerHTML = `<p class="respostas">Nada foi encontrado em nosso banco de dados.</p>`
-    
-            return;
-        }
     }
 
     section.innerHTML = resultados;
