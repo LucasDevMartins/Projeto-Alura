@@ -30,6 +30,12 @@ function pesquisarSemana() {
         }
     }
 
+    if (!resultados) {
+        section.innerHTML = `<p class="respostas">Nada foi encontrado em nosso banco de dados.</p>`
+
+        return;
+    }
+
     section.innerHTML = resultados;
 }
 
@@ -67,6 +73,11 @@ function pesquisarRemedio() {
         </div>
         `;
         }
+        if (!resultados) {
+            section.innerHTML = `<p class="respostas">Nada foi encontrado em nosso banco de dados.</p>`
+    
+            return;
+        }
     }
 
     section.innerHTML = resultados;
@@ -94,7 +105,7 @@ function pesquisarEnxoval() {
             <p>${quantidade}</p>
             </div>
         `;
-        }
+        }     
     }
 
     seção.innerHTML = resultados;
