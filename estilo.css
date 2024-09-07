@@ -165,7 +165,7 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 0.1rem;
+        margin-top: 0.2rem;
         margin-bottom: 0.1rem;
         flex-direction: column;
     }
@@ -199,6 +199,15 @@ footer {
     h1 {
         font-size: 1.8rem; /* Tamanho da fonte em telas pequenas */
         letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0.5rem;
+        margin-bottom: 0.1rem;
+        flex-direction: column;
     }
 
     section input {
